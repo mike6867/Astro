@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.container {
+    height: 40vh;
+    width: 100%;
+    padding: 0 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    height: 250px;
+    width: 250px;
+}
+
+.name {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: .6em;
+    margin-bottom: 20px;
+}
+
+.right {
+    display: flex;
+    flex-direction: column;
+}
